@@ -40,4 +40,7 @@
     <param name="recovery_alpha_slow" value="0.0"/>
     <param name="recovery_alpha_fast" value="0.0"/>
   </node>
+<include file="$(find robot_description)/launch/spawn.launch"/>
+<include file="$(find robot_description)/launch/world.launch"/>
+<node name='rviz' type='rviz' pkg='rviz'/>
 </launch>

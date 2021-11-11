@@ -8,5 +8,5 @@
     <rosparam file="$(find nav)/launch/global_costmap_params.yaml" command="load" /> 
     <rosparam file="$(find nav)/launch/base_local_planner_params.yaml" command="load" />
  </node>
-
+<include file="$(find nav)/launch/amcl.launch/">
 </launch> 
