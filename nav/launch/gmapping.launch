@@ -50,4 +50,6 @@
     <param name="lasamplestep" value="0.005"/>
     <remap from="scan" to="$(arg scan_topic)"/>
   </node>
+  <include file="$(find robot_description)/launch/spawn.launch"/>
+  <include file="$(find robot_description)/launch/world.launch"/>
 </launch>
