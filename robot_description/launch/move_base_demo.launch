@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  
+
+  <!--- Run AMCL -->
+  <include file="$(find m2wr_description)/launch/amcl.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find m2wr_description)/launch/move_base.launch" />
+
+</launch>
+
